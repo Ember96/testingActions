@@ -7,4 +7,8 @@ jobs:
       - name: Print greeting
         run: echo "Hello World!"
       - name: Print goodbye
-        run: echo "Ok, bye honey"
+        run: | 
+            echo "Ok, bye honey"
+            echo "Where is my beer honey?"
+            pwd
+            ls
